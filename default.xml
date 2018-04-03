@@ -22,8 +22,12 @@
 	   fetch="https://github.com/ResurrectionRemix"
 	   revision="nougat" />
 
+  <remote  name="ps"
+	   fetch="https://github.com/PawanSingh5277"
+	   revision="nougat" />	
+
   <!-- AOSP Projects -->
-  <project path="build" name="android_build" remote="rr" >
+  <project path="build" name="android_build" remote="ps" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
