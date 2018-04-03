@@ -38,8 +38,4 @@
   <!-- interfacer -->
   <project name="packages_services_ThemeInterfacer" path="packages/services/ThemeInterfacer" remote="rr" />
 
-  <!-- RR for land -->
-  <project path="vendor/xiaomi" name="vendor_xiaomi" remote="ps" revision="cm-14.1-land" />
-  <project path="device/xiaomi/land" name="device_xiaomi_land" remote="ps" revision="rr-n" />
-
 </manifest>
